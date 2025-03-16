@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightgrey;
+}
+
+#btn-add {
+  background-color: green;
+  color: white;
+}
+
+#div-container {
+  display: flex;
+}
+
+.btn-eliminar {
+  text-align: center;
+}
+
+
+.tablaCheckbox {
+  text-align: center;
+  transform: scale(1.5);
+  margin: 10px;
+}
+
