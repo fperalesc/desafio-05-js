@@ -1,3 +1,3 @@
-Desafío 4 - Arrays y objetos con Javascript
+Desafío 5 - Métodos de arreglos con Javascript
 
 https://fperalesc.github.io/desafio-05-js/
