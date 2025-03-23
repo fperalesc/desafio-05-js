@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 body {
@@ -11,19 +11,16 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 2rem;
- 
 }
-
 
 #parrafo {
   padding: 0.5rem 0;
 }
 
-
 #tareasInput {
   margin: 0.5rem 0;
   width: 25rem;
-  padding:0.5rem;
+  padding: 0.5rem;
 }
 
 #btn-add {
@@ -37,14 +34,14 @@ body {
   padding: 1rem;
 }
 
-th, td {
+th,
+td {
   padding: 0.5rem;
 }
 
 .btn-eliminar {
   text-align: center;
 }
-
 
 .tablaCheckbox {
   text-align: center;
@@ -53,7 +50,6 @@ th, td {
 }
 
 #btnAgregar {
-  padding:0.5rem;
+  padding: 0.5rem;
   font-weight: bold;
-  font
 }
