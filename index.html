@@ -1,31 +1,34 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>To do List</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <script defer src="./assets/js/script.js"></script>
-</head>
-<body>
-    <h1>To Do List</h1>
-    <hr>
-<p>Agrega una nueva tarea</p>
-<input id="tareasInput" type="text"> <button id="btnAgregar">Agregar tarea</button>
-<div id="div-container">
-    <div><P>Total: <span id="totalTareas">0</span></P>
-    <P>Realizadas <span id="totalTareasRealizadas">0</span></P></div>
-    <table>
-        <thead>
+  </head>
+  <body>
+    <div id="contenedor">
+      <h1>To Do List</h1>
+      <hr />
+      <p id="parrafo">Agrega una nueva tarea</p>
+      <input id="tareasInput" type="text" />
+      <button id="btnAgregar">Agregar tarea</button>
+      <div id="div-container">
+        <div>
+          <p>Total: <span id="totalTareas">0</span></p>
+          <p>Realizadas <span id="totalTareasRealizadas">0</span></p>
+        </div>
+        <table id="tabla">
+          <thead>
             <th>ID</th>
-            <th>Tarea</th>
+            <th id="tareasTabla">Tarea</th>
             <th>Estado</th>
             <th></th>
-        </thead>
-        <tbody id="tbodyTareas">
-        </tbody>
-  
-    </table>
-</div>
-</body>
+          </thead>
+          <tbody id="tbodyTareas"></tbody>
+        </table>
+      </div>
+    </div>
+  </body>
 </html>
